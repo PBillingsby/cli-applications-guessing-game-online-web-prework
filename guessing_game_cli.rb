@@ -1,4 +1,5 @@
 # Code your solution here!
+require_relative "../guessing_game_cli"
 def run_guessing_game
   rand_num = rand(1..6)
   puts "Pick a number between 1 and 6"
